@@ -132,12 +132,12 @@ Example - null
 Example - undefined
 
 ---
-### 5. BigInt
+### 6. BigInt
 ```js
 let x = BigInt("123456789012345678901234567890");
 ```
 ---
-### 5. Symbol
+### 7. Symbol
 ```js
 const sym3 = Symbol("foo");
 ```
