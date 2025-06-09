@@ -1,5 +1,7 @@
 # Commands Breakdown
 
+ #                                     <h2 align="center">🚀 Tutorial No. 2</h2>
+
 ### `console.log(value);`  
 Ye command console par value print karta hai.  
 **Examples:**  
@@ -42,5 +44,124 @@ Console mein error message show karta hai, jisme error icon hota hai.
 
 - `//` se single line comment banta hai.  
 - `/* ... */` se multi-line comment likha jata hai.
+
+
+ #                                     <h2 align="center">🚀 Tutorial No. 3</h2>
+
+# JavaScript Variables and Constants
+
+### 📜 Is tutorial mein basic JavaScript variable types (`var`, `let`, `const`) aur unke rules ke baare mein code aur explanation diya gaya hai.
+
+### `console.log("tut3");`
+### var
+Global scoped hota hai.
+
+Redeclare aur reassign dono ho sakta hai.
+
+---
+
+### let
+Block scoped hota hai.
+
+Reassign ho sakta hai, lekin redeclare nahi.
+
+---
+
+### const
+Block scoped hota hai.
+
+Na redeclare hota hai, na reassign.
+
+Declare karte waqt initialize karna zaroori hai.
+
+---
+
+### Variable Naming Rules
+
+1. Must Begin with a Letter, $, or _
+2. Can Contain Letters, Digits, _ and $ but Special Characters not allowed
+3. Cannot Be a Reserved Keyword
+4. Case Sensitive
+5. Use Meaningful Names (Best Practice)
+
+---
+
+###  Naming Style Conventions
+
+1. camelCase
+2. kebab-case (Not allowed in variable names)
+3. snake_case
+4. PascalCase
+
+---
+
+ #                                     <h2 align="center">🚀 Tutorial No. 4</h2>
+
+### JavaScript Data Types
+
+### 📜In this tutorial  **data types in JavaScript**, categorized as **Primitive** and **Reference** types.
+
+---
+
+## 📌 Primitive Data Types
+
+#### These are basic, single-value data types.
+
+### 1. String
+Example - "Ansh"
+
+---
+
+### 2. Number
+Example - 34.4
+
+---
+
+### 3. Boolean
+
+
+Example - true	
+
+---
+
+### 4. Null
+Example - null
+
+---
+### 5. Undefined
+Example - undefined
+
+---
+### 5. BigInt
+```js
+let x = BigInt("123456789012345678901234567890");
+```
+---
+### 5. Symbol
+```js
+const sym3 = Symbol("foo");
+```
+---
+
+## 📌 Reference (Non-Primitive) Data Types
+
+### 1. Object
+**Examples:**  
+`[1, 2, 3, "array"]` &nbsp;&nbsp;&nbsp; `{ name: "Ansh" }` &nbsp;&nbsp;&nbsp; `new Date()`
+
+
+---
+
+```js
+function findName() {
+    
+}
+console.log(typeof(findName));
+```
+
+Is code ka output javascript mai **function** aata hai 
+
+
+
 
 
