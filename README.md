@@ -159,9 +159,59 @@ function findName() {
 console.log(typeof(findName));
 ```
 
-Is code ka output javascript mai **function** aata hai 
+### Is code ka output javascript mai **function** aata hai 
+---
+ #                                     <h2 align="center">🚀 Tutorial No. 5</h2>
+
+
+### JavaScript Type Conversion and Type Coercion
+
+### 📜 This tutorial explains how JavaScript handles **type conversion** (manual) and **type coercion** (automatic). Below is the sample code and its detailed explanation.
 
 
 
+#### Explanation
+- **Type Conversion:**
+  - `String(value)`: Converts value to 
+  string.
+  ---
+  - `Number(value)`: Converts value to number. If not possible, returns `NaN`.
+  ---
+  - `.toString()`: Converts number/boolean/array to string.
+  ---
+  - `parseInt()`/`parseFloat()`: Converts string to integer/float.
+  ---
+  - `toFixed(2)`: Rounds number to 2 decimal places (returns string).
+ 
+---
+---
+- **Examples:**
+  - `String(34)` → "34" (string)
+
+  - `Number("343d4")` → NaN
+ 
+  - `Number(true)` → 1
+  
+  - `Number([1,2,3])` → NaN
+ 
+  - `String([1,2,3])` → "1,2,3"
+---
+---
+- **Type Coercion:**
+  - When using `+` with string and number, number is automatically converted to string and concatenated.
+ 
+  - Example: `"698" + 34` → "69834"
+  ---
+  - When using `+` with boolean  and number, boolean is automatically converted to number and perform addition.
+
+  - Example: `true + 1` → 2
+  ---
+  - When using `-` with string and number, string is automatically converted to number and substract.
+
+  - Example: `"5" - 2` → 3
+---
 
 
+**Summary:**
+- JavaScript can convert data types explicitly (conversion) or implicitly (coercion).
+- Use `typeof` to check the type after conversion.
