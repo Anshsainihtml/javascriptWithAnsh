@@ -307,3 +307,31 @@ This file is useful for learning about string maKnipulation and template literal
 This tutorial is useful for understanding how to work with arrays and objects in JavaScript, including how to create, access, modify, and use common methods.
 
 ---
+#                                     <h2 align="center">🚀 Tutorial No. 8</h2>
+### Conditional Statements in JavaScript
+
+This tutorial demonstrates how to use conditional statements and logical operators in JavaScript:
+
+1. **If, Else If, and Else Statements:**
+   - Checks the value of `age` using `if`, `else if`, and `else` blocks.
+   - `if(age == 19)`: Checks if age is equal to 19 .
+   - `else if(age == 65)`: Checks if age is strictly equal to 65.
+   - `else`: Executes if none of the above conditions are true.
+
+2. **Checking if a Variable is Defined:**
+   - `if (typeof vari !== 'undefined')`: Checks if the variable `vari` is defined.
+   - Prints a message based on whether `vari` exists or not.
+
+3. **Logical Operators:**
+   - `&&` (AND): Both conditions must be true. Example: `if(doesDrive && age1>18)`.
+   - `||` (OR): At least one condition must be true. Example: `if(doesDrive || age1>18)`.
+
+4. **Ternary Operator:**
+   - `console.log(age==45 ? 'Age is 45': 'Age is not 45');` Prints one of two messages based on the condition.
+
+5. **Switch Statement:**
+   - Checks the value of `age` and executes code based on matching cases (18, 28, 38). If no case matches, the `default` block runs.
+
+This tutorial is useful for learning how to control the flow of your JavaScript code using conditions and logical operators.
+
+---
