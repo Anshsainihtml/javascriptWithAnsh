@@ -10,12 +10,12 @@ let html;
 html = "<h1> this is heading</h1>" +
        "<p> this is my para </p>"
 
-// html = html.concat(' this ', 'str2');
-// console.log(html);
-// console.log(html.length);
-// console.log(html.toLowerCase());
-// console.log(html.toUpperCase());
-// console.log(html);
+html = html.concat(' this ', 'str2');
+console.log(html);
+console.log(html.length);
+console.log(html.toLowerCase());
+console.log(html.toUpperCase());
+console.log(html);
 
 console.log(html[1]);
 console.log(html.indexOf('this'));

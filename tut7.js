@@ -6,7 +6,7 @@ const mixed = ['str', 89, [3, 5]];
 
 const  arr = new Array(23, 123, 21, 'Orange');
 console.log(arr);
-console.log(mixed);
+console.log(mixed);requestAnimationFrame
 console.log(fruits[1]);
 
 console.log(arr.length);
@@ -23,13 +23,13 @@ let value = marks.indexOf(73)
 console.log(value);
 
 // Mutating or Modifying arrays
-// marks.push(64);
-// marks.pop();
-// marks.unshift(55);
-// marks.shift();
-// console.log(marks);
-// marks.splice(2, 3);
-// marks.reverse();
+marks.push(64);
+marks.pop();
+marks.unshift(55);
+marks.shift();
+console.log(marks);
+marks.splice(2, 3);
+marks.reverse();
 
 let marks2 = [1, 2, 3, 7];
 marks = marks.concat(marks2);

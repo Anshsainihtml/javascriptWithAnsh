@@ -41,5 +41,19 @@ else {
 
 // 
 
-console.log();
-333
+console.log(age==45 ? 'Age is 45': 'Age is not 45');
+
+switch (age) {
+    case 18:
+        console.log("you are 18");
+        break;
+    case 28:
+        console.log("You are 28");
+        break;
+    case 38:
+        console.log("You are 38");
+        break;
+    default:
+        console.log("You are unknown age");
+        break;
+}
