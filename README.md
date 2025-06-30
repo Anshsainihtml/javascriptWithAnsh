@@ -335,3 +335,34 @@ This tutorial demonstrates how to use conditional statements and logical operato
 This tutorial is useful for learning how to control the flow of your JavaScript code using conditions and logical operators.
 
 ---
+#                                     <h2 align="center">🚀 Tutorial No. 9</h2>
+### Loops in JavaScript
+
+### This tutorial demonstrates different types of loops and how to iterate over arrays, objects, and strings:
+
+1. **For Loop:**
+   - Standard loop for running code a fixed number of times.
+   - Example: `for(let i=0; i<10; i++)` runs from 0 to 9.
+
+2. **While Loop:**
+   - Runs as long as a condition is true.
+   - Example: `while (j<10)` keeps running until `j` reaches 10.
+
+3. **Do-While Loop:**
+   - Runs the code block at least once, then checks the condition.
+   - Example: `do { ... } while (a==b);` prints 'Hii' once because `a` is not equal to `b`.
+
+4. **Iterating Arrays:**
+   - `for (let i = 0; i < arr.length; i++)` is used to loop through array elements.
+
+5. **Iterating Objects:**
+   - `for (const key in obj)` loops through all keys in an object and accesses their values.
+   - Example: Prints each property and value of the `obj` object.
+
+6. **For...of Loop:**
+   - Used to iterate over iterable objects like strings and arrays.
+   - Example: `for (let element of str)` prints each character of the string `str`.
+
+This tutorial is useful for understanding how to use different types of loops to repeat actions and process data structures in JavaScript.
+
+---
