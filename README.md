@@ -366,3 +366,26 @@ This tutorial is useful for learning how to control the flow of your JavaScript 
 This tutorial is useful for understanding how to use different types of loops to repeat actions and process data structures in JavaScript.
 
 ---
+#                                     <h2 align="center">🚀 Tutorial No. 10</h2>
+### Functions and Default Parameters in JavaScript
+
+This tutorial demonstrates how to define and use functions with default parameters and template literals:
+
+1. **Function Definition:**
+   - `function greet(name, thank="Thank You")` defines a function named `greet` that takes two parameters: `name` and `thank`.
+   - The `thank` parameter has a default value of "Thank You". If no value is provided for `thank` when calling the function, it will use this default.
+
+2. **Template Literals:**
+   - Inside the function, a message is created using a template literal (backticks ``).
+   - The template literal allows embedding variables (`${name}` and `${thank}`) and writing multi-line strings easily.
+
+3. **Printing the Message:**
+   - `console.log(msg);` prints the personalized birthday message to the console.
+
+4. **Function Calls:**
+   - `greet('Ansh saini', 'Thanks a lot')` calls the function with both parameters.
+   - `greet('Prince katariya', 'Thanks a lot')` calls the function with different arguments.
+
+This tutorial is useful for learning how to use functions, default parameters, and template literals to create dynamic and reusable code in JavaScript.
+
+---
