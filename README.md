@@ -335,57 +335,28 @@ This tutorial demonstrates how to use conditional statements and logical operato
 This tutorial is useful for learning how to control the flow of your JavaScript code using conditions and logical operators.
 
 ---
-#                                     <h2 align="center">🚀 Tutorial No. 9</h2>
-### Loops in JavaScript
+#                                     <h2 align="center">🚀 Tutorial No. 11</h2>
+### Window, Document, and Browser Object Properties
 
-### This tutorial demonstrates different types of loops and how to iterate over arrays, objects, and strings:
+This tutorial demonstrates how to access and use various properties of the `window` object in JavaScript:
 
-1. **For Loop:**
-   - Standard loop for running code a fixed number of times.
-   - Example: `for(let i=0; i<10; i++)` runs from 0 to 9.
+1. **Accessing the Document Object:**
+   - `let a = window.document;` assigns the document object (the whole HTML page) to variable `a`.
 
-2. **While Loop:**
-   - Runs as long as a condition is true.
-   - Example: `while (j<10)` keeps running until `j` reaches 10.
+2. **Window Properties:**
+   - `window.innerHeight` and `innerWidth`: Get the height and width of the browser's viewport (visible area).
+   - `scrollY` and `scrollX`: Get the number of pixels the document has been scrolled vertically and horizontally.
 
-3. **Do-While Loop:**
-   - Runs the code block at least once, then checks the condition.
-   - Example: `do { ... } while (a==b);` prints 'Hii' once because `a` is not equal to `b`.
+3. **Location Object:**
+   - `location.toString()`: Gets the current URL as a string.
 
-4. **Iterating Arrays:**
-   - `for (let i = 0; i < arr.length; i++)` is used to loop through array elements.
+4. **History Object:**
+   - `window.history`: Accesses the browser's session history (pages visited in the tab).
+   - `history.go(1)`: (commented out) Would move forward one page in the session history if uncommented.
 
-5. **Iterating Objects:**
-   - `for (const key in obj)` loops through all keys in an object and accesses their values.
-   - Example: Prints each property and value of the `obj` object.
+5. **Console Output:**
+   - `console.log(a);` prints the current value of `a` to the console, which changes as `a` is reassigned to different window properties.
 
-6. **For...of Loop:**
-   - Used to iterate over iterable objects like strings and arrays.
-   - Example: `for (let element of str)` prints each character of the string `str`.
-
-This tutorial is useful for understanding how to use different types of loops to repeat actions and process data structures in JavaScript.
-
----
-#                                     <h2 align="center">🚀 Tutorial No. 10</h2>
-### Functions and Default Parameters in JavaScript
-
-This tutorial demonstrates how to define and use functions with default parameters and template literals:
-
-1. **Function Definition:**
-   - `function greet(name, thank="Thank You")` defines a function named `greet` that takes two parameters: `name` and `thank`.
-   - The `thank` parameter has a default value of "Thank You". If no value is provided for `thank` when calling the function, it will use this default.
-
-2. **Template Literals:**
-   - Inside the function, a message is created using a template literal (backticks ``).
-   - The template literal allows embedding variables (`${name}` and `${thank}`) and writing multi-line strings easily.
-
-3. **Printing the Message:**
-   - `console.log(msg);` prints the personalized birthday message to the console.
-
-4. **Function Calls:**
-   - `greet('Ansh saini', 'Thanks a lot')` calls the function with both parameters.
-   - `greet('Prince katariya', 'Thanks a lot')` calls the function with different arguments.
-
-This tutorial is useful for learning how to use functions, default parameters, and template literals to create dynamic and reusable code in JavaScript.
+This tutorial is useful for understanding how to interact with the browser window, document, and navigation history using JavaScript.
 
 ---
