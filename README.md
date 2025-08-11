@@ -360,3 +360,20 @@ This tutorial demonstrates how to access and use various properties of the `wind
 This tutorial is useful for understanding how to interact with the browser window, document, and navigation history using JavaScript.
 
 ---
+#                                     <h2 align="center">🚀 Tutorial No. 12</h2>
+### Code Explanation (tut12.js)
+
+
+1. `let a = document;`
+   - `a` variable me pura document object assign ho jayega (poora HTML page).
+2. `a = document.all;`
+   - `a` me document ke saare elements (HTMLCollection) aa jayenge.
+3. `a = document.links[0].href`
+   - `a` me pehle link (`<a>`) ka href (URL) assign ho jayega.
+
+4. `console.log(a)`
+   - `a` ki current value (jo bhi last assign hui hai) console par print hogi.
+
+Yeh code document object ke kuch properties ko access karna aur unhe console par print karna dikhata hai.
+
+---
